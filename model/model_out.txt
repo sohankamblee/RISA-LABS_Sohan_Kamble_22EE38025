@@ -1,0 +1,255 @@
+{
+ "total": {
+  "spend": 274000,
+  "impr": 1029015,
+  "clicks": 32070,
+  "sessions": 24645,
+  "identified": 3500,
+  "reg": 2800,
+  "att": 1925,
+  "visitors": 2050,
+  "walkins": 125,
+  "identified_all": 3625,
+  "show": 0.6875,
+  "visit_days": 2775
+ },
+ "plan_base": {
+  "C04": 62,
+  "C05": 38,
+  "C01": 60,
+  "C06": 18,
+  "C07": 20,
+  "C02": 45,
+  "C03": 20
+ },
+ "plan_stretch": {
+  "C04": 86,
+  "C05": 54,
+  "C01": 74,
+  "C06": 20,
+  "C07": 24,
+  "C02": 50,
+  "C03": 20
+ },
+ "show_budget": [
+  22,
+  32
+ ],
+ "reserve": [
+  15,
+  0
+ ],
+ "assumptions": {
+  "base": {
+   "e": 0.7,
+   "overlap": 0.15,
+   "show_lift": 0.045,
+   "walk": 120,
+   "transfer": 0.96
+  },
+  "stretch": {
+   "e": 0.8,
+   "overlap": 0.1,
+   "show_lift": 0.055,
+   "walk": 150,
+   "transfer": 1.0
+  }
+ },
+ "mc": {
+  "p10": 2146.290966201935,
+  "p50": 2355.681391860202,
+  "p90": 2562.390551131027,
+  "p_ge_hist": 0.97545,
+  "p_ge_2200": 0.82685,
+  "p_ge_2350": 0.51545,
+  "stretch_plan": {
+   "p50": 2716.3681743961615,
+   "p90": 3051.5952152511272,
+   "p_ge_3000": 0.13955,
+   "p_ge_3200": 0.02875
+  }
+ },
+ "sens": {
+  "transfer": [
+   2025.3094949694162,
+   2633.7072969382903
+  ],
+  "e": [
+   2257.883221817142,
+   2517.5764416228553
+  ],
+  "show_lift": [
+   2244.420274970179,
+   2472.9449093499
+  ],
+  "overlap": [
+   2324.196006435921,
+   2421.734757181624
+  ],
+  "walk": [
+   2302.9653818087722,
+   2427.9653818087722
+  ]
+ },
+ "capacity": {
+  "visit_days_per_visitor": 1.353658536585366,
+  "day1_share": 0.5153153153153153,
+  "peak_hour_share": 0.17552447552447553,
+  "base": {
+   "peak_day": 1655.2880468227045,
+   "peak_hour": 290.5435662604887,
+   "lanes": 2
+  },
+  "stretch": {
+   "peak_day": 2184.7700993734193,
+   "peak_hour": 383.4806258340757,
+   "lanes": 3
+  }
+ },
+ "pace": {
+  "70": 0.04214285714285714,
+  "56": 0.20964285714285713,
+  "42": 0.4085714285714286,
+  "28": 0.5578571428571428,
+  "14": 0.8010714285714285,
+  "7": 0.9217857142857143,
+  "1": 1.0
+ },
+ "ab": {
+  "p1": 0.6875,
+  "lift": 0.05,
+  "n_per_arm": 1286
+ },
+ "bets": [
+  {
+   "id": "B1",
+   "name": "College Squad Pass",
+   "gross": 240.43434519430127,
+   "extra_cost": 31000,
+   "budget": 62000,
+   "conf": 0.8,
+   "pw": 6,
+   "rice": 32.0579126925735,
+   "cost_per_inc": 128.93332678801812,
+   "score": 24.863945956564482
+  },
+  {
+   "id": "B3",
+   "name": "Crew Referral Loop",
+   "gross": 171.73881799592954,
+   "extra_cost": 19000,
+   "budget": 38000,
+   "conf": 0.7,
+   "pw": 4,
+   "rice": 30.054293149287666,
+   "cost_per_inc": 110.63311266326713,
+   "score": 27.16573042716751
+  },
+  {
+   "id": "B2",
+   "name": "Show-Up Engine",
+   "gross": 138.24893986305315,
+   "extra_cost": 22000,
+   "budget": 22000,
+   "conf": 0.6,
+   "pw": 3,
+   "rice": 27.64978797261063,
+   "cost_per_inc": 159.13322750823835,
+   "score": 17.375244884780077
+  },
+  {
+   "id": "B4",
+   "name": "Pay-per-Show Ambassadors",
+   "gross": 110.6059175690707,
+   "extra_cost": 18000,
+   "budget": 60000,
+   "conf": 0.6,
+   "pw": 8,
+   "rice": 8.295443817680303,
+   "cost_per_inc": 162.7399364844963,
+   "score": 5.09736208387336
+  },
+  {
+   "id": "B5",
+   "name": "Paid + Creator Blitz",
+   "gross": 75.84935543788872,
+   "extra_cost": 31000,
+   "budget": 31000,
+   "conf": 0.7,
+   "pw": 4,
+   "rice": 13.273637201630525,
+   "cost_per_inc": 408.7048574247303,
+   "score": 3.2477316969679237
+  }
+ ],
+ "bridge": [
+  [
+   "Last edition (actual)",
+   2050
+  ],
+  [
+   "College Squad Pass",
+   240.43434519430127
+  ],
+  [
+   "Crew Referral Loop",
+   171.73881799592954
+  ],
+  [
+   "Pay-per-Show Ambassadors",
+   110.6059175690707
+  ],
+  [
+   "Organic + community",
+   65.401835714042
+  ],
+  [
+   "Cut paid + creator",
+   -228.38876793217824
+  ],
+  [
+   "Overlap deduction",
+   -78.41686211389515
+  ],
+  [
+   "Show-Up Engine",
+   133.50406709134177
+  ],
+  [
+   "New-city friction",
+   -86.91397170983964
+  ],
+  [
+   "Walk-in change",
+   -5.0
+  ],
+  [
+   "Base case",
+   2372.9653818087722
+  ]
+ ],
+ "other_channels_inc": 48.3857622854803,
+ "harvest_inc": -239.85321721489112
+}
+base {'overlap_deduct': 68.98, 'lift': 128.545, 'walk': 120, 'reg': 2856.558, 'att_reg': 2252.965, 'visitors': 2372.965, 'show': 0.789}
+{'spend': 263000, 'impr': 950451, 'clicks': 33750, 'sessions': 25916, 'identified': 3435, 'reg': 2857, 'att': 2193}
+                     name  spend         reg         att
+C01    Campus Ambassadors  60000  640.775574  480.581681
+C02           Paid Social  45000  392.727074  196.363537
+C03      Creator Partners  20000  157.566492   78.783246
+C04  College Partnerships  62000   701.78607  600.416971
+C05     Student Referrals  38000   545.83361  428.869265
+C06        Organic Search  18000  286.162269   223.20657
+C07      Community Groups  20000  224.459627  185.179193
+{'C01': 91, 'C02': -144, 'C03': -96, 'C04': 215, 'C05': 154, 'C06': 28, 'C07': 20}
+stretch {'overlap_deduct': 106.868, 'lift': 201.983, 'walk': 150, 'reg': 3672.424, 'att_reg': 2982.013, 'visitors': 3132.013, 'show': 0.812}
+{'spend': 328000, 'impr': 1190579, 'clicks': 43869, 'sessions': 33672, 'identified': 4374, 'reg': 3672, 'att': 2887}
+                     name  spend          reg         att
+C01    Campus Ambassadors  74000   818.067778  613.550834
+C02           Paid Social  50000   413.902984  206.951492
+C03      Creator Partners  20000   147.302606   73.651303
+C04  College Partnerships  86000  1017.939389    870.9037
+C05     Student Referrals  54000   807.198175  634.227138
+C06        Organic Search  20000   332.553541  259.391762
+C07      Community Groups  24000   276.632373  228.221708
+{'C01': 224, 'C02': -133, 'C03': -101, 'C04': 486, 'C05': 359, 'C06': 64, 'C07': 63}
